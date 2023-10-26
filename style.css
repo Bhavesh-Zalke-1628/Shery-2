@@ -92,8 +92,7 @@ body {
 
 #ephmeral {
     width: 30vw;
-    height: 43vw;
-    background-color: rgb(188, 161, 161);
+    /* background-color: rgb(188, 161, 161); */
     position: relative;
 }
 
@@ -103,11 +102,12 @@ body {
     left: -20%;
 }
 
-#ephmeral img{
+#ephmeral img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 #ephmeral h1 {
     font-size: 6vw;
     line-height: 1;
@@ -115,13 +115,12 @@ body {
     letter-spacing: -.5vw;
 }
 
-#ephmeral p{
-    position: absolute;
+#ephmeral p {
     font-size: 1.3vw;
     letter-spacing: -.7px;
     width: 40%;
-    top: 100%;
 }
+
 #visit {
     display: flex;
     align-items: center;
@@ -145,4 +144,53 @@ body {
 #visit h3 {
     color: #5e5e5e;
     font-weight: 400;
+}
+
+#motive {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    margin-top: 7vw;
+}
+
+#motive p {
+    width: 70%;
+    text-align: right;
+    font-size: 1.5vw;
+    position: relative;
+    right: 0;
+    letter-spacing: -.5px;
+    font-weight: 800;
+    line-height: 2;
+}
+
+#motive span {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 100px;
+    background-color: red;
+    margin: 0 14px;
+    margin-bottom: -12.5px;
+}
+
+#one {
+    width: 80px;
+    height: 50px;
+    background-image: url('./Assest/bluegirl.jpg');
+    background-size: cover;
+    background-position: 0% 60%;
+}
+#two {
+    width: 110px;
+    height: 50px;
+    background-image: url('./Assest/shaljam.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+}
+#three {
+    width: 70px;
+    height: 40px;
+    background-image: url('./Assest/grass.jpg');
+    background-size: cover;
+    background-position: 0% 60%;
 }
