@@ -35,17 +35,114 @@ body {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 15px;
+    font-weight: 600;
 }
 
-#nleft{
+#nleft {
     display: flex;
     gap: 30px;
 }
-#nav #center{
+
+#nav #center {
     font-size: 18px;
-    font-weight: 200;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+}
+
+#hero {
+    width: 100%;
+    margin-top: 12vw;
+    padding: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sustain {
+    width: 10vw;
+
+}
+
+#sustain p {
+    font-size: 12px;
+    margin: 10px 0px;
+    font-weight: 800;
+    opacity: .5;
+    text-transform: capitalize;
+}
+
+#sustain #sustImgWrapper {
+    height: 15vw;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#sustImgWrapper img {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 140%;
+    width: 140%;
+    object-fit: cover;
+}
+
+#ephmeral {
+    width: 30vw;
+    height: 43vw;
+    background-color: rgb(188, 161, 161);
+    position: relative;
+}
+
+#ephmeral #headings {
+    position: absolute;
+    top: -23%;
+    left: -20%;
+}
+
+#ephmeral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#ephmeral h1 {
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.5vw;
+}
+
+#ephmeral p{
+    position: absolute;
+    font-size: 1.3vw;
+    letter-spacing: -.7px;
+    width: 40%;
+    top: 100%;
+}
+#visit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#circlev {
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+}
+
+#circlev i {
+    color: #5e5e5e;
+}
+
+#visit h3 {
+    color: #5e5e5e;
+    font-weight: 400;
 }
