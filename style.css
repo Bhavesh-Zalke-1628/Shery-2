@@ -1,0 +1,51 @@
+@font-face {
+    font-family: nimbus;
+    src: url('./nimbus-sans-l.regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nimbus;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#nav {
+    padding: 20px 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 10vw;
+}
+
+#nav a {
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav #center{
+    font-size: 18px;
+    font-weight: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
